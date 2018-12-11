@@ -1,0 +1,7 @@
+{
+  "name": "IonicShoppingList",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
