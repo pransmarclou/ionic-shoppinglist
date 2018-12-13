@@ -12,7 +12,6 @@
 
 </ion-header>
 
-
 <ion-content padding>
 
   <ion-item>
@@ -30,7 +29,7 @@
       <ion-input [(ngModel)]="item.price" type="number" placeholder="700"></ion-input>
   </ion-item>
 
-  {{item | json}}
+  <!-- {{item | json}} -->
  
-  <button ion-button block clear>Add</button>
+  <button ion-button block clear (click)="addItem(item)">Add</button>
 </ion-content>
