@@ -1,7 +1,7 @@
+import { Injectable } from "@angular/core";
 import { AngularFireDatabase } from "angularfire2/database";
 
 import { Item } from "../../models/item.model";
-import { Injectable } from "@angular/core";
 
 @Injectable()
 export class ShoppingListService{
