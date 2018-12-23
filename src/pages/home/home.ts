@@ -5,7 +5,6 @@ import { Observable } from "rxjs";
 import { map } from "rxjs/operators";
 import { Item } from '../../models/item.model';
 
-
 @IonicPage()
 @Component({
   selector: 'page-home',
