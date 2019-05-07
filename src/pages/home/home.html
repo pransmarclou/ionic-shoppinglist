@@ -1,7 +1,7 @@
 <ion-header>
   <ion-navbar color="primary">
     <ion-title>
-      Tindahan ni Breel
+      Ionic Shopping List
     </ion-title>
 
     <ion-buttons end>
@@ -18,7 +18,7 @@
     <ion-list-header>
       Items
     </ion-list-header>
-    <ion-item *ngFor="let item of shoppingList$ | async">
+    <ion-item *ngFor="let item of shoppingList$ | async" detail-push navPush="EditShoppingItemPage" [navParams]="{item: item}">
       {{item.name}}
     </ion-item>
   </ion-list>
