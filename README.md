@@ -28,3 +28,8 @@ $ git clone https://github.com/pransmarclou/ionic-shoppinglist/
 $ ionic serve
 ```
 
+**Use the following commands to deploy the application to mobile.**
+```shell
+$ ionic cordova run android -1
+```
+
