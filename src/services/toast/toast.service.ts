@@ -9,7 +9,7 @@ export class ToastService  {
         return this.toastCtrl
         .create({
             message,
-            duration,
+            duration
         })
         .present();
     }

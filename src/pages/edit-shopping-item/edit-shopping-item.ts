@@ -32,4 +32,11 @@ export class EditShoppingItemPage {
     });
   }
 
+  removeItem(item: Item) {
+    this.shopping.removeItem(item).then(() => {
+      this.toast.show('Item deleted!');
+      this.navCtrl.setRoot('HomePage');
+    })
+  }
+
 }
