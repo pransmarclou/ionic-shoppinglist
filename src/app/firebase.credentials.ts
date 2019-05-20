@@ -1,8 +1,8 @@
 export const FIREBASE_CONFIG = {
-    apiKey: "AIzaSyAtOxV2a9vvkCzksTYuUjtEtJgnra-icOE",
-    authDomain: "ionic-d873c.firebaseapp.com",
-    databaseURL: "https://ionic-d873c.firebaseio.com",
-    projectId: "ionic-d873c",
-    storageBucket: "ionic-d873c.appspot.com",
-    messagingSenderId: "848774450523"
+    apiKey: "*Insert your apiKey here*",
+    authDomain: "*Insert your auth domain here*",
+    databaseURL: "*Insert your database url here*",
+    projectId: "*Insert your project id here*",
+    storageBucket: "*Insert your storage bucket here*",
+    messagingSenderId: "*Insert your messaging sender id here*"
   };
